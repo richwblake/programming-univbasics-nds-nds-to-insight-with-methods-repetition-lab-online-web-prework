@@ -13,6 +13,7 @@ def directors_totals(source)
 end
 
 # Takes director NDS (H -> A -> H)
+# Returns total gross earned as an Int
 def gross_for_director(d)
   total = 0
   index = 0
