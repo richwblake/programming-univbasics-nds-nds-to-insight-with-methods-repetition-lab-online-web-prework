@@ -2,6 +2,7 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require_relative './directors_database'
 
 # Takes director NDS as argument
+# Returns a hash with director names (strings) as keys, and respective gross totals as values
 def directors_totals(source)
   result = {}
   director_index = 0
