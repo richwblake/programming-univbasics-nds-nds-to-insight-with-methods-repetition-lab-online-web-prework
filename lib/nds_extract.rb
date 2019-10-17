@@ -24,6 +24,8 @@ def gross_for_director(d)
   total
 end
 
+# Takes director NDS as argument. 
+# Returns an array of strings containing all directors
 def list_of_directors(source)
   director_index = 0
   director_list = Array.new
