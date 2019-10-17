@@ -1,6 +1,7 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require_relative './directors_database'
 
+# Takes director NDS as argument
 def directors_totals(source)
   result = {}
   director_index = 0
@@ -12,7 +13,7 @@ def directors_totals(source)
   result
 end
 
-# Takes director NDS (H -> A -> H)
+# Takes director NDS (H -> A -> H) as argument
 # Returns total gross earned as an integer
 def gross_for_director(d)
   total = 0
