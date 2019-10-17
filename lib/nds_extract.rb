@@ -12,7 +12,7 @@ def directors_totals(source)
   result
 end
 
-# Takes director NDS (H -> A -> )
+# Takes director NDS (H -> A -> H)
 def gross_for_director(d)
   total = 0
   index = 0
